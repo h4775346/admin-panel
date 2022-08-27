@@ -129,7 +129,7 @@ class LoginController extends Controller
     {
         $lockUser = $cookieJar->forget('lockUser');
 
-        return redirect()->route('platform.login')->withCookie($lockUser);
+        return redirect()->route('login')->withCookie($lockUser);
     }
 
     /**
@@ -139,7 +139,7 @@ class LoginController extends Controller
     {
         UserSwitch::logout();
 
-        return redirect()->route(config('platform.index'));
+        return redirect()->route(config('index'));
     }
 
     /**
