@@ -10,7 +10,7 @@
 @endpush
 
 <div class="h2 fw-light d-flex align-items-center">
-   <img src="{{asset('images/logo.png')}}"  width="100px"/>
+   <img src="{{asset('images/logo.png')}}"  width="100px" alt="logo"/>
 
     <p class="ms-3 my-0 d-none d-sm-block">
         Admin Panel
