@@ -1,7 +1,7 @@
 @push('head')
     <meta name="robots" content="noindex" />
     <link
-          href="{{ asset('/vendor/orchid/favicon.svg') }}"
+          href="{{ asset('images/logo.png') }}"
           sizes="any"
           type="image/svg+xml"
           id="favicon"
@@ -10,10 +10,10 @@
 @endpush
 
 <div class="h2 fw-light d-flex align-items-center">
-   <x-orchid-icon path="orchid" width="1.2em" height="1.2em"/>
+   <img src="{{asset('images/logo.png')}}"  width="100px"/>
 
     <p class="ms-3 my-0 d-none d-sm-block">
-        ORCHID
+        Admin Panel
         <small class="align-top opacity">Platform</small>
     </p>
 </div>

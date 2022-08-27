@@ -55,7 +55,7 @@
     </div>
 
 
-    @include('platform::partials.toast')
+    @include('partials.toast')
 </div>
 
 @stack('scripts')

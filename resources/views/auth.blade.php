@@ -7,7 +7,7 @@
     <div class="form-signin container h-full p-0 px-sm-5 py-5 my-sm-5">
 
         <a class="d-flex justify-content-center mb-4" href="{{Dashboard::prefix()}}">
-            @includeFirst([config('platform.template.header'), 'platform::header'])
+            @includeFirst([config('platform.template.header'), 'header'])
         </a>
 
         <div class="row justify-content-center">
@@ -18,7 +18,7 @@
                 </div>
 
                 <div class="mt-4 text-center">
-                    @includeFirst([config('platform.template.footer'), 'platform::footer'])
+                    @includeFirst([config('platform.template.footer'), 'footer'])
                 </div>
             </div>
         </div>
